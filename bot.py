@@ -11,10 +11,10 @@ bot = commands.Bot(command_prefix='g!')
 mycursor = mydb.cursor(buffered=True)
 
 mydb = mysql.connector.connect(
-    host="89.37.194.114",
-    user="testuser",
-    password="h=ik.vREx+EMWuNyim!Zsd.c",
-    database="communities_test"
+    host= IP,
+    user="USER",
+    password="PASS",
+    database="DB"
 )
 
 guilds = []
@@ -59,4 +59,4 @@ async def check_activity(self):
 
 
 
-bot.run('NjY4Mjc2Mjk1ODUwOTE3OTE4.XiO6zA.l7LV6fRbvDpFGuNkkS5DlFPSpSk'
+bot.run('TOKEN')
